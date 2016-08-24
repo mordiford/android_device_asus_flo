@@ -1,7 +1,7 @@
 [
  {
-   "repository": "android_kernel_google_msm",
-   "target_path": "kernel/google/msm"
+   "repository": "minori-flo-kernel",
+   "target_path": "kernel/google/flo"
  },
  {
    "repository": "android_external_stlport",
