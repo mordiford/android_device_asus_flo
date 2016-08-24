@@ -34,6 +34,13 @@ TARGET_KERNEL_SOURCE := kernel/google/msm
 TARGET_KERNEL_CONFIG := cyanogen_flo_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
+# Optimizations
+STRICT_ALIASING := false
+CLANG_O3 := true
+ENABLE_GCCONLY := true
+GRAPHITE_OPTS := false
+USE_PIPE := true
+
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
 BOARD_USES_FLUENCE_INCALL := true
